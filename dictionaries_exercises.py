@@ -13,7 +13,6 @@ def is_key_present(x):
   else:
       print('Key is not present in the dictionary')
 is_key_present(5)
-is_key_present(9)
 
 # program to iterate over dictonaries using for loops. Print keys and values of dictionary
 d = {'x': 10, 'y': 20, 'z': 30} 
