@@ -2,7 +2,7 @@
 """
 Created on Thu Mar  4 13:34:17 2021
 
-@author: Owner
+@author: Maria Katrantzi
 """
 
 # program that prints the unique items in a given list
