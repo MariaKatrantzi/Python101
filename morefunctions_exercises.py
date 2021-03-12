@@ -6,13 +6,12 @@ Created on Thu Mar  4 13:34:17 2021
 """
 
 # program that prints the unique items in a given list
-def unique_list(l):
+def unique_list(list):
   x = []
-  for a in l:
+  for a in list:
     if a not in x:
       x.append(a)
   return x
-
 print(unique_list([1,2,3,3,3,3,4,5])) 
 
 # program that simulates flipping a coin a random number of times
@@ -26,6 +25,7 @@ def coinflip():
         return "Heads"
     else:
         return "Tails"
+    
 def average(Heads, Tails):
     print("Heads: " + str(Heads))
     print("Tails: " + str(Tails))
