@@ -25,7 +25,7 @@ print(message)
 message = "Thank you for sharing Python with the world, Guido!" 
 #print(mesage) 
 # Output: 
-# --------------------------------------------------------------------------- NameError                                 Traceback (most recent call last) /home/ehmatthes/development_resources/project_notes/intro_programming/notebooks/<ipython-input-12-7966723379c3> in <module>()       1 message = "Thank you for sharing Python with the world, Guido!" ----> 2 print(mesage)  NameError: name 'mesage' is not defined
+# -------- NameError Traceback (most recent call last) /home/ehmatthes/development_resources/project_notes/intro_programming/notebooks/<ipython-input-12-7966723379c3> in <module>()       1 message = "Thank you for sharing Python with the world, Guido!" ----> 2 print(mesage)  NameError: name 'mesage' is not defined
 
 message = "Thank you for sharing Python with the world, Guido!" 
 print(message) 
